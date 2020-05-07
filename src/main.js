@@ -12,6 +12,8 @@ Vue.use(Chakra)
 
 Vue.use(Chakra)
 
+Vue.use(Chakra)
+
 Vue.config.productionTip = false
 
 new Vue({
