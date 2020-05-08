@@ -13,6 +13,8 @@
     "@chakra-ui/vue": "^0.3.13",
     "core-js": "^3.6.4",
     "emotion": "^10.0.27",
+    "tiptap": "^1.27.1",
+    "tiptap-extensions": "^1.29.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -22,6 +24,8 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
     "vue-cli-plugin-chakra-ui": "~0.2.2",
     "vue-cli-plugin-tauri": "~0.5.0",
     "vue-template-compiler": "^2.6.11"

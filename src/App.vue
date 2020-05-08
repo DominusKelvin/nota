@@ -1,18 +1,18 @@
 <template>
-  <c-theme-provider>
-    <c-reset />
-    <!--Your application goes here -->
-  </c-theme-provider>
+  <default-layout>
+    <template>
+      <nota-editor />
+    </template>
+  </default-layout>
 </template>
 
 <script>
-import { CThemeProvider, CReset } from "@chakra-ui/vue";
-
+import DefaultLayout from "@/components/layouts/DefaultLayout.vue";
+import NotaEditor from "@/components/NotaEditor.vue";
 export default {
-  name: "App",
   components: {
-    CThemeProvider,
-    CReset
-  }
+    DefaultLayout,
+    NotaEditor,
+  },
 };
 </script>
