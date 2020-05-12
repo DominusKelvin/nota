@@ -1,5 +1,7 @@
 name: release-tauri-app
-
+on:
+  watch:
+    types: [started]
 on:
   push:
     branches:
